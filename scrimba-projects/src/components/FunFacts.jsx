@@ -1,5 +1,5 @@
 import reactLogo from '../assets/react.svg'
-import "./fun_facts.css"
+import "./FunFacts.css"
 
 function FunfactsReact() {
     return (
