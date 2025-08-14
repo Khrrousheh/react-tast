@@ -1,0 +1,21 @@
+.card {
+    margin: 0;
+    position: relative;
+    color: aqua;
+    background: rgb(53, 30, 70);
+    border: 0 black solid;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 2em;
+    overflow: hidden;
+}
+
+.card > .shadow-image {
+    position: absolute;
+    right: 20px;
+    top: 80px;
+    width: 180px;
+    height: auto;
+    opacity: 0.05;
+    pointer-events: none;
+}
