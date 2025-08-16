@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import FunfactsReact from './components/FunFacts'
 import Card from './components/PorjectCard'
+import BusinessCard from './components/BusniessCard'
 function App() {
 
   return (
@@ -15,6 +16,13 @@ function App() {
             footer={<p>Static page</p>}
           >
             <FunfactsReact />
+          </Card>
+
+                    <Card
+            header={<h3>Fun Facts about React</h3>}
+            footer={<p>Static page</p>}
+          >
+            <BusinessCard />
           </Card>
 
         </div>
