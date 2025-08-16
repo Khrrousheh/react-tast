@@ -1,0 +1,32 @@
+.card {
+    max-width: 800px;
+    max-height: 600px;
+    margin: 0;
+    position: relative;
+    color: aqua;
+    background: rgb(53, 30, 70);
+    border: 0 black solid;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 2em;
+    overflow: hidden;
+    font-size: 8pt;
+}
+
+.card-nav{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+}
+
+.card > .shadow-image {
+    position: absolute;
+    right: 5px;
+    bottom: 10px;
+    width: 80px;
+    height: auto;
+    opacity: 0.05;
+    pointer-events: none;
+}
